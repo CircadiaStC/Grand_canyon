@@ -1,174 +1,4 @@
 
-.web-1920-1 .donald-giannatt-t6x-z4-unsplash-C61RwL {
-  --z-index: 0;
-  background-color: transparent;
-  background-image: url("../images/donald-giannatti-0bwS43t6xZ4-unsplash.jpg");
-  background-size: 100% 100%;
-  height: 1282px;
-  left: -6px;
-  object-fit: cover;
-  opacity: 1;
-  position: absolute;
-  top: -202px;
-  width: 1926px;
-}
-
-
-.web-1920-1 .grand-canyon-f-13x19-lo2000x-C61RwL {
-  --z-index: 2;
-  background-color: transparent;
-  background-image: url(../images/Grand_Canyon-Forest_13x19-LO_2000x.png);
-  background-size: 100% 100%;
-  height: 341px;
-  left: -86px;
-  object-fit: cover;
-  opacity: 1;
-  position: absolute;
-  top: -25px;
-  width: 561px;
-}
-
-.web-1920-1 .rectangle-1-C61RwL {
-  --z-index: 3;
-  background-color: transparent;
-  background-image: url(../images/rectangle-1@1x.png);
-  background-size: 100% 100%;
-  height: 155px;
-  left: -7px;
-  object-fit: cover;
-  opacity: 1;
-  position: absolute;
-  top: 361px;
-  width: 245px;
-}
-
-.web-1920-1 .group-2-C61RwL {
-  --z-index: 4;
-  background-color: transparent;
-  height: 459px;
-  left: -702px;
-  opacity: 0;
-  position: absolute;
-  top: 268px;
-  width: 786px;
-}
-
-.web-1920-1 .conquer-the-grand-canyon-zUixHA {
-  --z-index: 0;
-  background-color: transparent;
-  background-image: url(../images/conquer-the-grand-canyon-1@1x.png);
-  background-size: 100% 100%;
-  height: 350px;
-  left: 0px;
-  object-fit: cover;
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  width: calc(100.00% + 1px);
-}
-
-.web-1920-1 .embark-on-a-jou-onic-wilderness-zUixHA {
-  --z-index: 1;
-  background-color: transparent;
-  background-image: url(../images/embark-on-a-journey-to-the-enchanting-home-of-the-african-safari-1@1x.png);
-  background-size: 100% 100%;
-  bottom: 0px;
-  height: 108px;
-  left: 33px;
-  object-fit: cover;
-  opacity: 1;
-  position: absolute;
-  width: 334px;
-}
-
-.web-1920-1 .component-3-1-C61RwL {
-  --z-index: 5;
-  background-color: transparent;
-  height: 81px;
-  left: 110px;
-  opacity: 1;
-  position: absolute;
-  top: 393px;
-  width: 79px;
-}
-
-.web-1920-1 .group-3-BDHW7B {
-  --z-index: 0;
-  background-color: transparent;
-  height: 100%;
-  left: 0px;
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  width: 100%;
-}
-
-.web-1920-1 .component-2-1-whnFUq {
-  --z-index: 0;
-  background-color: transparent;
-  height: 100%;
-  left: 0px;
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  width: 100%;
-}
-
-.web-1920-1 .ellipse-3-w0CE4p {
-  --z-index: 0;
-  background-color: #ffffff;
-  border: 1px solid #707070;
-  border-radius: 39.5px/40.5px;
-  height: 100%;
-  left: 0px;
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  width: 100%;
-}
-
-.web-1920-1 .component-1-1-C61RwL {
-  --z-index: 6;
-  background-color: transparent;
-  cursor: pointer;
-  height: 26px;
-  left: 130px;
-  opacity: 1;
-  position: absolute;
-  top: 420px;
-  width: 28px;
-}
-
-.web-1920-1 .line-1-GL0FrS {
-  --z-index: 0;
-  background-color: transparent;
-  background-image: url(../images/line-1@1x.png);
-  background-size: 100% 100%;
-  height: 19px;
-  left: -1px;
-  object-fit: cover;
-  opacity: 1;
-  position: absolute;
-  top: -3px;
-  width: calc(100.00% + 3px);
-}
-
-.web-1920-1 .line-2-GL0FrS {
-  --z-index: 1;
-  background-color: transparent;
-  background-image: url(../images/line-2@1x.png);
-  background-size: 100% 100%;
-  bottom: -3px;
-  height: 18px;
-  left: -1px;
-  object-fit: cover;
-  opacity: 1;
-  position: absolute;
-  width: calc(100.00% + 3px);
-}
-
-
-
 .web-1920-2 .donald-giannatt-t6x-z4-unsplash-C61RwL {
   --z-index: 0;
   background-color: transparent;
@@ -194,6 +24,20 @@
   width: 374px;
 }
 
+button {
+  --z-index: 0;
+  background-color: #0050c3;
+  left: 20px;
+  position: absolute;
+  top: 40px;
+}
+
+button :hover {
+filter: grayscale(5%); 
+  transform: scale(3.1); 
+  transition: transform 3s; 
+}
+
 .web-1920-2 .component-8-1-SQ9Gz0 {
   --z-index: 0;
   background-color: transparent;
@@ -205,12 +49,18 @@
   width: 48px;
 }
 
+.web-1920-2 .component-8-1-SQ9Gz0 :hover {
+  filter: grayscale(5%); 
+  transform: scale(1.1); 
+  transition: transform 1s; 
+}
+
 .web-1920-2 .discover-OvTNAp {
   --z-index: 0;
   background-color: transparent;
   color: #ffffff;
   font-family: 'NeueHaas Grotesk Display Pro-65Medium', Helvetica;
-  font-size: 12px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 500;
   height: calc(100.00% + 2px);
@@ -221,6 +71,7 @@
   position: absolute;
   text-align: left;
   top: -5px;
+  right: 10px;
   white-space: nowrap;
   width: calc(100.00% + 2px);
 }
@@ -229,11 +80,17 @@
   --z-index: 1;
   background-color: transparent;
   height: 100%;
-  left: calc(27.19% - 15px);
+  left: calc(25.19% - 15px);
   opacity: 1;
   position: absolute;
   top: 0px;
   width: 54px;
+}
+
+.web-1920-2 .component-9-1-SQ9Gz0 :hover {
+  filter: grayscale(5%); 
+  transform: scale(1.1); 
+  transition: transform 1s; 
 }
 
 .web-1920-2 .plan-a-trip-IsjiVq {
@@ -241,7 +98,7 @@
   background-color: transparent;
   color: #ffffff;
   font-family: 'NeueHaas Grotesk Display Pro-65Medium', Helvetica;
-  font-size: 12px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 500;
   height: calc(100.00% + 2px);
@@ -267,12 +124,18 @@
   width: 45px;
 }
 
+.web-1920-2 .component-10-1-SQ9Gz0 :hover {
+  filter: grayscale(5%); 
+  transform: scale(1.1); 
+  transition: transform 1s; 
+}
+
 .web-1920-2 .all-tours-jcckT7 {
   --z-index: 0;
   background-color: transparent;
   color: #ffffff;
   font-family: 'NeueHaas Grotesk Display Pro-65Medium', Helvetica;
-  font-size: 12px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 500;
   height: calc(100.00% + 2px);
@@ -298,12 +161,18 @@
   width: 47px;
 }
 
+.web-1920-2 .component-11-1-SQ9Gz0 :hover {
+  filter: grayscale(5%); 
+  transform: scale(1.1);
+  transition: transform 1s; 
+}
+
 .web-1920-2 .our-blog-EefupQ {
   --z-index: 0;
   background-color: transparent;
   color: #ffffff;
   font-family: 'NeueHaas Grotesk Display Pro-65Medium', Helvetica;
-  font-size: 12px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 500;
   height: calc(100.00% + 2px);
@@ -316,6 +185,12 @@
   top: -5px;
   white-space: nowrap;
   width: calc(100.00% + 2px);
+}
+
+.web-1920-2 .grand-canyon-f-13x19-lo2000x-C61RwL :hover {
+  filter: grayscale(5%); 
+  transform: scale(1.1); 
+  transition: transform 1s; 
 }
 
 .web-1920-2 .grand-canyon-f-13x19-lo2000x-C61RwL {

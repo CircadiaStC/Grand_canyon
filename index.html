@@ -6,53 +6,57 @@
     <meta name="viewport" content="width=device-width"> 
 
     <title>Canyon Hikers</title>
-    <script src="js/script.js" defer></script>
+    
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/wickedcss.min.css">
+    
   </head>
   <body>
-	
 
-
+    <script>
+      function  play(){
+      var audio = document.getElementById("sound");
+      audio.play();
+      }
+  </script>
+  
+   
 <div class="container-center-horizontal">
-    <div class="web-1920-1 auto-animated screen" data-page="web-1920-1" data-screens="web-1920-1,web-1920-2">
+    <div class="web-1920-2 auto-animated screen" data-page="web-1920-2" data-screens="web-1920-2">
       <div class="donald-giannatt-t6x-z4-unsplash-C61RwL"></div>
-      <div class="menu-C61RwL">
+      
         
+      
+      <div class="menu-C61RwL">
+        <div class="slideLeft">
+
+          <button onclick="play()" type="button">
+            <img src="./images/Begonia1.png" height="25 " width="auto">
+            <audio id="sound"><source src="./images/587124__daniel-gonzalez__small-river-edited.wav" type="audio/WAV"></audio>
+          </button>
+          
         <div class="component-8-1-SQ9Gz0"><div class="discover-OvTNAp">Discover</div></div>
         <div class="component-9-1-SQ9Gz0"><div class="plan-a-trip-IsjiVq">Plan a trip</div></div>
         <div class="component-10-1-SQ9Gz0"><div class="all-tours-jcckT7">All tours</div></div>
-        <div class="component-11-1-SQ9Gz0"><div class="our-blog-EefupQ">Our blog</div></div>
-      </div>
-      <div class="grand-canyon-f-13x19-lo2000x-C61RwL"></div>
-      <div class="rectangle-1-C61RwL"></div>
-      <div class="group-2-C61RwL hidden">
-        <div class="conquer-the-grand-canyon-zUixHA"></div>
-        <div class="embark-on-a-jou-onic-wilderness-zUixHA"></div>
-      </div>
-      <div class="component-3-1-C61RwL">
-        <div class="group-3-BDHW7B">
-          <div class="component-2-1-whnFUq">
-            <div class="ellipse-3-w0CE4p"></div>
-          </div>
-        </div>
-      </div>
-      <div class="component-1-1-C61RwL" onclick="play(); Lib.autoanim_redirect('%2A,web-1920-1%23web-1920-2,,snap,400', event)" >
-        <audio id="audio" src="../grand_canyon/images/456966__funwithsound__success-fanfare-trumpets.mp3" type="audio/mpg"></audio>
-        <div class="line-1-GL0FrS"></div>
-        <div class="line-2-GL0FrS"></div>
-        
-      </div>
-      
-      <div class="group-1-C61RwL">
-       
-        <div class="conquer-the-grand-canyon-VyzZeT"></div>
-        <div class="embark-on-a-jou-onic-wilderness-VyzZeT"></div>
-        
+        <div class="component-11-1-SQ9Gz0"><div class="our-blog-EefupQ">Our blog</div></div> 
       </div>
     </div>
+
+    <div class="logo">
+      <div class="slideRight">
+       <div class="grand-canyon-f-13x19-lo2000x-C61RwL"></div>
+      </div>
+    </div>
+      
+    <div class="group-1-C61RwL">
+        <div class="zoomer">
+          <div class="conquer-the-grand-canyon-VyzZeT"></div>
+        </div>
+        <div class="embark-on-a-jou-onic-wilderness-VyzZeT"></div>
+    </div>
+  
   </div>
-  <script src="https://animaapp.s3.amazonaws.com/js/timeline.js"></script>
-  <script src="index.js"></script>
+ 
   </body>
 </html>
  
